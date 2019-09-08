@@ -16,6 +16,10 @@ right_column_win =[2,5,8], # Right column
 right_diagonal_win = [2,4,6], # Right diagonal
 left_diagonal_win =  [0,4,8], # left diagonal
   ]
-  if board [top_row_win[0]]
+  if board[top_row_win[0]]
     =="X" &&
-    board
+    board[top_row_win[1]] ==
+    "X" &&
+    board [top_row_win[2]] == "X"
+      "X won in the top row"
+  end

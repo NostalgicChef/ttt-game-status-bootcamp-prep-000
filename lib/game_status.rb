@@ -5,7 +5,7 @@ end
 
 # Define your WIN_COMBINATIONS constant
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " ",]
- #won?
+def #won?
 WIN_COMBINATIONS = [
 top_row_win = [0,1,2], # Top row
 middle_row_win = [3,4,5], # Middle row

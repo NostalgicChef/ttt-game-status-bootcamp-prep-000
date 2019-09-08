@@ -5,8 +5,14 @@ end
 
 # Define your WIN_COMBINATIONS constant
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+
 WIN_COMBINATIONS = [
-  [0,1,2],
-  [3,4,5],
-  [6,7,8],
+top_row_win =  [0,1,2],
+middle_row_win = [3,4,5],
+bottom_row_win = [6,7,8],
+left_column_win = [0,3,6],
+middle_column_win = [1,4,7],
+right_column_win = [2,5,8],
+right_diagonal_win = [2,4,6],
+left_diagonal_win =  [0,4,8],
   ]

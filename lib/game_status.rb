@@ -17,7 +17,7 @@ right_diagonal_win = [2,4,6], # Right diagonal
 left_diagonal_win =  [0,4,8], # left diagonal
   ]
   if board[top_row_win[0]]
-    =="X" &&
+    == "X" &&
     board[top_row_win[1]] ==
     "X" &&
     board [top_row_win[2]] == "X"

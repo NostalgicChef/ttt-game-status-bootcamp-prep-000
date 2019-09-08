@@ -7,7 +7,7 @@ end
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " ",]
 
 WIN_COMBINATIONS = [
-top_row_win =  [0,1,2],
+[0,1,2], # Top row
 middle_row_win = [3,4,5],
 bottom_row_win = [6,7,8],
 left_column_win = [0,3,6],
